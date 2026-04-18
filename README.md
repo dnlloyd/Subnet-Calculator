@@ -1,2 +1,3 @@
-# Subnet-Calculator
-SPA Subnet Calculator
+# Online Subnet Calculator
+
+Dan's Subnet Calculator

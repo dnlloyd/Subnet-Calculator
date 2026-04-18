@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"></stop>
+      <stop offset="100%" stop-color="#4ade80"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#07111f"></rect>
+
+  <!-- Parent network -->
+  <rect x="10" y="12" width="44" height="16" rx="4" fill="url(#grad)" opacity="0.9"></rect>
+
+  <!-- Split line -->
+  <line x1="32" y1="28" x2="32" y2="38" stroke="#22d3ee" stroke-width="2"></line>
+
+  <!-- Child subnets -->
+  <rect x="10" y="38" width="20" height="12" rx="3" fill="#22d3ee"></rect>
+  <rect x="34" y="38" width="20" height="12" rx="3" fill="#4ade80"></rect>
+
+  <!-- Connection lines -->
+  <line x1="32" y1="38" x2="20" y2="38" stroke="#22d3ee" stroke-width="2"></line>
+  <line x1="32" y1="38" x2="44" y2="38" stroke="#4ade80" stroke-width="2"></line>
+</svg>
